@@ -397,34 +397,3 @@ section.sidebar-signup {
 .sidebar-signup button:hover {
   background-color: #326891;
 }
-/* Bottom other articles styles */
-.bottom-box {
-  width: 90%;
-  height: 500px;
-  margin: 0 auto;
-  border: 1px solid blue;
-  background: yellow;
-  position: relative;
-  top: 8700px;
-}
-
-.bottom-other-articles {
-  width: 70%;
-}
-
-.bottom-other-articles {
-  margin-bottom: 50px;
-}
-
-.bottom-articles {
-  height: 200px;
-  width: 200px;
-  border: 1px solid red;
-  background-color: blue;
-  float: left;
-}
-
-#second-bottom-box {
-  background-color: red;
-  margin-right: 250px;
-}
