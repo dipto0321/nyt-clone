@@ -303,7 +303,7 @@ figure {
   right: 220px;
 }
 
-section+.post-extra {
+section + .post-extra {
   margin-top: 30px;
 }
 
@@ -323,4 +323,17 @@ section+.post-extra {
 .extra-right-after-article i {
   position: relative;
   bottom: 8px;
+}
+/* Sidebar styles */
+.sidebar {
+  position: relative;
+  left: 800px;
+}
+.sidebar-1 {
+  border: 1px solid red;
+  position: absolute;
+}
+.sidebar-2 {
+  border: 1px solid red;
+  position: absolute;
 }
