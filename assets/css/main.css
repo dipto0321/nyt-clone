@@ -272,6 +272,7 @@ section.embed {
 }
 
 /* figure styles */
+
 figure {
   position: absolute;
   left: -70px;
@@ -302,7 +303,7 @@ figure {
   right: 220px;
 }
 
-section+.post-extra {
+section + .post-extra {
   margin-top: 30px;
 }
 
@@ -412,7 +413,6 @@ section.sidebar-signup {
   top: 7900px;
 }
 
-
 .bottom-other-articles {
   width: 71%;
   border: 1px solid orange;
@@ -429,12 +429,9 @@ section.sidebar-signup {
   float: left;
 }
 
-
-
 .bottom-other-articles {
   margin-bottom: 50px;
 }
-
 
 .bottom-articles {
   height: 200px;
@@ -449,10 +446,32 @@ section.sidebar-signup {
   margin-right: 250px;
 }
 
-.bottom-articles figure{
+.bottom-articles figure {
   max-width: 100%;
+  position: static;
 }
 
-.bottom-articles img {
-  
+.bottom-articles figure img {
+  width: 270px;
+}
+.bottom-articles-caption {
+  font-size: 13px;
+  color: #999;
+  text-align: right;
+}
+.bottom-articles h2 {
+  margin: 10px 0;
+}
+.bottom-articles a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #121;
+  text-decoration: none;
+}
+.bottom-articles a:hover {
+  color: #666;
+}
+.bottom-article-date {
+  font-size: 13px;
+  color: #999;
 }
