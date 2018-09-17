@@ -302,7 +302,7 @@ figure {
   right: 220px;
 }
 
-section + .post-extra {
+section+.post-extra {
   margin-top: 30px;
 }
 
@@ -331,16 +331,17 @@ section + .post-extra {
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px 0 0 10px;
 }
+
 .sidebar {
   width: 150px;
   height: 800px;
   position: absolute;
-  left: 1125px;
+  left: 1010px;
   top: 1645px;
 }
 
 .main-sidebar-boxes {
-  border-left: 1px solid #333;
+  border-left: 1px solid #ccc;
 }
 
 .sidebar-box img {
@@ -380,4 +381,36 @@ section.sidebar-signup {
   font-size: 12px;
   color: rgb(102, 102, 102);
   font-weight: 700;
+}
+
+/* Bottom other articles styles */
+.bottom-box {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid blue;
+  background: yellow;
+  position: relative;
+  top: 8700px;
+}
+
+.bottom-other-articles {
+  width: 70%;
+}
+
+.bottom-other-articles {
+  margin-bottom: 50px;
+}
+
+.bottom-articles {
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+  background-color: blue;
+  float: left;
+}
+
+#second-bottom-box {
+  background-color: red;
+  margin-right: 250px;
 }
