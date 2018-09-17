@@ -303,7 +303,7 @@ figure {
   right: 220px;
 }
 
-section + .post-extra {
+section+.post-extra {
   margin-top: 30px;
 }
 
@@ -405,7 +405,7 @@ section.sidebar-signup {
 
 .bottom-box {
   width: 1200px;
-  height: 500px;
+  height: 800px;
   margin: 0 auto;
   border: 1px solid blue;
   /* background: yellow; */
@@ -430,7 +430,7 @@ section.sidebar-signup {
 }
 
 .bottom-other-articles {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .bottom-articles {
@@ -439,6 +439,7 @@ section.sidebar-signup {
   /* border: 1px solid red; */
   /* background-color: blue; */
   float: left;
+  margin-bottom: 100px;
 }
 
 #second-bottom-box {
@@ -454,24 +455,35 @@ section.sidebar-signup {
 .bottom-articles figure img {
   width: 270px;
 }
+
 .bottom-articles-caption {
-  font-size: 13px;
+  font-size: 11px;
   color: #999;
   text-align: right;
 }
+
 .bottom-articles h2 {
   margin: 10px 0;
 }
+
 .bottom-articles a {
   font-size: 18px;
+  font-family: Times, serif;
   font-weight: 500;
   color: #121;
   text-decoration: none;
 }
+
 .bottom-articles a:hover {
   color: #666;
 }
+
 .bottom-article-date {
-  font-size: 13px;
+  font-size: 12px;
   color: #999;
+}
+
+#blank-content {
+  width: 270px;
+  height: 180px;
 }
