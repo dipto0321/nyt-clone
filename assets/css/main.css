@@ -302,7 +302,7 @@ figure {
   right: 220px;
 }
 
-section + .post-extra {
+section+.post-extra {
   margin-top: 30px;
 }
 
@@ -384,6 +384,7 @@ section.sidebar-signup {
   font-weight: 500;
   margin: 10px 0 15px 0;
 }
+
 .sidebar-signup button {
   width: 100%;
   padding: 8px;
@@ -394,37 +395,64 @@ section.sidebar-signup {
   border: none;
   border-radius: 3px;
 }
+
 .sidebar-signup button:hover {
   background-color: #326891;
 }
+
 /* Bottom other articles styles */
+
 .bottom-box {
-  width: 90%;
+  width: 1200px;
   height: 500px;
   margin: 0 auto;
   border: 1px solid blue;
-  background: yellow;
+  /* background: yellow; */
   position: relative;
-  top: 7816px;
+  top: 7900px;
 }
 
+
 .bottom-other-articles {
-  width: 70%;
+  width: 71%;
+  border: 1px solid orange;
+  /* background-color: orange; */
+  height: 500px;
+  float: left;
+  margin-right: 44px;
 }
+
+.bottom-sidebar {
+  width: 25%;
+  /* border: 1px solid orange; */
+  height: 500px;
+  float: left;
+}
+
+
 
 .bottom-other-articles {
   margin-bottom: 50px;
 }
 
+
 .bottom-articles {
   height: 200px;
-  width: 200px;
-  border: 1px solid red;
-  background-color: blue;
+  width: 272px;
+  /* border: 1px solid red; */
+  /* background-color: blue; */
   float: left;
 }
 
 #second-bottom-box {
-  background-color: red;
+  /* background-color: red; */
   margin-right: 250px;
+}
+
+.bottom-articles figure{
+  max-width: 100%;
+}
+
+.bottom-articles img {
+  
 }
