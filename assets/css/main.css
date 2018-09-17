@@ -303,7 +303,7 @@ figure {
   right: 220px;
 }
 
-section+.post-extra {
+section + .post-extra {
   margin-top: 30px;
 }
 
@@ -407,30 +407,30 @@ section.sidebar-signup {
   width: 1220px;
   height: 800px;
   margin-left: 100px;
-  border: 1px solid blue;
-  /* background: yellow; */
   position: relative;
   top: 7900px;
 }
 
 .bottom-other-articles {
   width: 71%;
-
+  border-top: 2px solid #121;
 }
 
-.bottom-box header {
+.bottom-other-articles header,
+.editors-pick header {
   font-size: 15.5px;
   margin-bottom: 20px;
   padding-top: 20px;
 }
 
-.bottom-box header a {
+.bottom-other-articles header a,
+.editors-pick header a {
   color: #000;
   text-decoration: none;
   font-weight: bold;
 }
 
-.bottom-box header a:hover {
+.bottom-other-articles header a:hover {
   text-decoration: underline;
 }
 
@@ -495,4 +495,11 @@ section.sidebar-signup {
   width: 270px;
   height: 250px;
   /* border: 1px solid green; */
+}
+
+section.editors-pick {
+  float: left;
+  clear: both;
+  border-top: 2px solid #121;
+  margin: 80px 0;
 }
