@@ -303,7 +303,7 @@ figure {
   right: 220px;
 }
 
-section + .post-extra {
+section+.post-extra {
   margin-top: 30px;
 }
 
@@ -405,32 +405,35 @@ section.sidebar-signup {
 
 .bottom-box {
   width: 1220px;
-  height: 800px;
+  height: 1070px;
   margin-left: 100px;
   position: relative;
   top: 7900px;
+  border-bottom: 1px solid #121;
 }
 
 .bottom-other-articles {
   width: 71%;
-  border-top: 2px solid #121;
+  border-top: 1px solid #121;
 }
 
-.bottom-other-articles header,
-.editors-pick header {
+.bottom-box header,
+.bottom-box li {
   font-size: 15.5px;
   margin-bottom: 20px;
   padding-top: 20px;
 }
 
-.bottom-other-articles header a,
-.editors-pick header a {
+.bottom-box header a,
+.bottom-box li a {
   color: #000;
   text-decoration: none;
   font-weight: bold;
 }
 
-.bottom-other-articles header a:hover {
+.bottom-other-articles header a:hover,
+.editors-pick header a:hover,
+.bottom-box li a:hover {
   text-decoration: underline;
 }
 
@@ -500,6 +503,15 @@ section.sidebar-signup {
 section.editors-pick {
   float: left;
   clear: both;
-  border-top: 2px solid #121;
+  border-top: 1px solid #121;
   margin: 80px 0;
+}
+
+.bottom-sidebar {
+  /* border: 1px solid green; */
+  height: 200px;
+  width: 20.5%;
+  position: relative;
+  bottom: 626px;
+  left: 40px;
 }
