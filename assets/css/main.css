@@ -302,7 +302,7 @@ figure {
   right: 220px;
 }
 
-section+.post-extra {
+section + .post-extra {
   margin-top: 30px;
 }
 
@@ -335,9 +335,9 @@ section+.post-extra {
 .sidebar {
   width: 150px;
   height: 800px;
-  position: absolute;
-  left: 1010px;
-  top: 1645px;
+  position: relative;
+  left: 1145px;
+  top: 785px;
 }
 
 .main-sidebar-boxes {
@@ -368,21 +368,35 @@ section+.post-extra {
 }
 
 section.sidebar-signup {
-  width: 100px;
+  width: 115px;
+  margin-top: 420px;
 }
 
 .sidebar-signup-header {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar-signup p {
-  font-size: 12px;
+  font-size: 15px;
   color: rgb(102, 102, 102);
-  font-weight: 700;
+  font-weight: 500;
+  margin: 10px 0 15px 0;
 }
-
+.sidebar-signup button {
+  width: 100%;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #6288a5;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.sidebar-signup button:hover {
+  background-color: #326891;
+}
 /* Bottom other articles styles */
 .bottom-box {
   width: 90%;
