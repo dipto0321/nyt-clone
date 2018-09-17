@@ -303,7 +303,7 @@ figure {
   right: 220px;
 }
 
-section+.post-extra {
+section + .post-extra {
   margin-top: 30px;
 }
 
@@ -417,8 +417,7 @@ section.sidebar-signup {
   border-top: 1px solid #121;
 }
 
-.bottom-box header,
-.bottom-box li {
+.bottom-box header {
   font-size: 15.5px;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -508,10 +507,27 @@ section.editors-pick {
 }
 
 .bottom-sidebar {
-  /* border: 1px solid green; */
-  height: 200px;
   width: 20.5%;
   position: relative;
-  bottom: 626px;
+  bottom: 627px;
   left: 40px;
+  border-top: 1px solid #121;
+}
+
+/* ul.bottom-sidebar-articles {
+  margin-top: -20px;
+} */
+.bottom-box ul li {
+  padding: 15px 0;
+  border-bottom: 1px solid #e2e2e2;
+  line-height: 25px;
+}
+.bottom-box ul li a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.bottom-box ul li:first-child {
+  border-top: 1px solid #e2e2e2;
 }
