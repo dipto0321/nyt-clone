@@ -34,7 +34,8 @@ header.header {
   width: 200px;
 }
 
-.nav-brand img {
+.nav-brand img,
+.main-footer img {
   /* width: 200px; */
   height: 28px;
   margin: 0 30vw;
@@ -303,7 +304,7 @@ figure {
   right: 220px;
 }
 
-section + .post-extra {
+section+.post-extra {
   margin-top: 30px;
 }
 
@@ -522,6 +523,7 @@ section.editors-pick {
   border-bottom: 1px solid #e2e2e2;
   line-height: 25px;
 }
+
 .bottom-box ul li a {
   font-family: "Times New Roman", Times, serif;
   font-size: 19px;
@@ -533,3 +535,51 @@ section.editors-pick {
 }
 
 /* Footer Styles */
+.main-footer {
+  position: relative;
+  top: 7855px;
+}
+
+.main-footer div {
+  position: relative;
+  right: 310px;
+}
+
+.footer-small {
+  display: inline-block;
+  position: relative;
+  left: 450px;
+  bottom: 10px;
+  font-size: 11px;
+}
+
+.footer-small a {
+  text-decoration: none;
+  color: #6288a5;
+}
+
+.footer-body {
+  position: relative;
+  top: 20px;
+}
+
+.footer-links {
+  position: relative;
+  left: 100px;
+}
+
+.article-categories {
+  width: 197px;
+  height: 315px;
+  border: 1px solid blue;
+  float: left;
+}
+
+.main-footer aside {
+  width: 215px;
+  height: 315px;
+  border: 1px solid green;
+  float: left;
+  position: relative;
+  left: 100px;
+}
