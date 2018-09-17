@@ -303,7 +303,7 @@ figure {
   right: 220px;
 }
 
-section+.post-extra {
+section + .post-extra {
   margin-top: 30px;
 }
 
@@ -417,9 +417,10 @@ section.sidebar-signup {
   width: 71%;
   border: 1px solid orange;
   /* background-color: orange; */
-  height: 500px;
+  /* height: 500px;
   float: left;
-  margin-right: 44px;
+  margin-right: 44px; */
+  margin-bottom: 150px;
 }
 
 .bottom-sidebar {
@@ -429,16 +430,13 @@ section.sidebar-signup {
   float: left;
 }
 
-.bottom-other-articles {
-  margin-bottom: 150px;
-}
-
 .bottom-articles {
   height: 200px;
   width: 272px;
   /* border: 1px solid red; */
   /* background-color: blue; */
   float: left;
+  display: block;
   margin-bottom: 100px;
 }
 
