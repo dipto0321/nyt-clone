@@ -272,6 +272,7 @@ section.embed {
 }
 
 /* figure styles */
+
 figure {
   position: absolute;
   left: -70px;
@@ -384,6 +385,7 @@ section.sidebar-signup {
   font-weight: 500;
   margin: 10px 0 15px 0;
 }
+
 .sidebar-signup button {
   width: 100%;
   padding: 8px;
@@ -394,6 +396,138 @@ section.sidebar-signup {
   border: none;
   border-radius: 3px;
 }
+
 .sidebar-signup button:hover {
   background-color: #326891;
+}
+
+/* Bottom other articles styles */
+
+.bottom-box {
+  width: 1220px;
+  height: 1070px;
+  margin-left: 100px;
+  position: relative;
+  top: 7900px;
+  border-bottom: 1px solid #121;
+}
+
+.bottom-other-articles {
+  width: 71%;
+  border-top: 1px solid #121;
+}
+
+.bottom-box header {
+  font-size: 15.5px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.bottom-box header a,
+.bottom-box li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bottom-other-articles header a:hover,
+.editors-pick header a:hover,
+.bottom-box li a:hover {
+  text-decoration: underline;
+}
+
+.bottom-sidebar {
+  width: 25%;
+  /* border: 1px solid orange; */
+  height: 500px;
+  float: left;
+}
+
+.bottom-articles {
+  height: 200px;
+  width: 272px;
+  float: left;
+  display: block;
+  margin-bottom: 60px;
+  margin-right: 15px;
+}
+
+#second-bottom-box {
+  /* background-color: red; */
+  margin-right: 250px;
+}
+
+.bottom-articles figure {
+  max-width: 100%;
+  position: static;
+}
+
+.bottom-articles figure img {
+  width: 270px;
+}
+
+.bottom-articles-caption {
+  font-size: 11px;
+  color: #999;
+  text-align: right;
+}
+
+.bottom-articles h2 {
+  margin: 10px 0;
+}
+
+.bottom-articles a {
+  font-size: 18px;
+  font-family: Times, serif;
+  font-weight: 500;
+  color: #121;
+  text-decoration: none;
+}
+
+.bottom-articles a:hover {
+  color: #666;
+}
+
+.bottom-article-date {
+  font-size: 12px;
+  color: #999;
+}
+
+#blank-content {
+  width: 270px;
+  height: 250px;
+  /* border: 1px solid green; */
+}
+
+section.editors-pick {
+  float: left;
+  clear: both;
+  border-top: 1px solid #121;
+  margin: 80px 0;
+}
+
+.bottom-sidebar {
+  width: 20.5%;
+  position: relative;
+  bottom: 627px;
+  left: 40px;
+  border-top: 1px solid #121;
+}
+
+/* ul.bottom-sidebar-articles {
+  margin-top: -20px;
+} */
+.bottom-box ul li {
+  padding: 15px 0;
+  border-bottom: 1px solid #e2e2e2;
+  line-height: 25px;
+}
+.bottom-box ul li a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.bottom-box ul li:first-child {
+  border-top: 1px solid #e2e2e2;
 }
