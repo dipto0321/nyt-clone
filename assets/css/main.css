@@ -12,6 +12,7 @@ header.header {
   position: fixed;
   top: 0;
   overflow: hidden;
+  z-index: 10;
 }
 
 .nav-main {
@@ -107,7 +108,7 @@ article h1 {
   font-weight: bold;
   font-style: italic;
   width: 350px;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 /*.article-main-image*/
@@ -227,7 +228,7 @@ article h1 {
 }
 
 .posts p {
-  margin: 20px 0;
+  margin: 0 0 20px 0;
 }
 
 .posts p a,
@@ -254,13 +255,17 @@ article h1 {
   font-size: 13px;
   color: #999;
   position: relative;
-  bottom: 12px;
+  bottom: 30px;
+  left: 400px;
 }
 
 .posts figure img {
   width: 700px;
 }
-
+#satellite-caption {
+  bottom: 45px;
+  left: 315px;
+}
 /*iframe Styles*/
 section.embed {
   position: relative;
@@ -409,7 +414,7 @@ section.sidebar-signup {
   margin-left: 100px;
   position: relative;
   top: 7900px;
-  border-bottom: 1px solid #121;
+  /* border-bottom: 1px solid #121; */
 }
 
 .bottom-other-articles {
@@ -514,14 +519,12 @@ section.editors-pick {
   border-top: 1px solid #121;
 }
 
-/* ul.bottom-sidebar-articles {
-  margin-top: -20px;
-} */
 .bottom-box ul li {
   padding: 15px 0;
   border-bottom: 1px solid #e2e2e2;
   line-height: 25px;
 }
+
 .bottom-box ul li a {
   font-family: "Times New Roman", Times, serif;
   font-size: 19px;
@@ -530,4 +533,158 @@ section.editors-pick {
 
 .bottom-box ul li:first-child {
   border-top: 1px solid #e2e2e2;
+}
+
+/* Footer Styles */
+.main-footer {
+  position: relative;
+  top: 7885px;
+  width: 87%;
+  margin: 30px auto 0 auto;
+  border-top: 1px solid #121;
+}
+
+.main-footer img {
+  width: 200px;
+  float: left;
+  display: block;
+}
+
+.main-footer > header {
+  clear: both;
+  height: 35px;
+}
+
+.footer-small {
+  font-size: 11px;
+  float: right;
+  margin-right: 105px;
+}
+
+.footer-small a {
+  text-decoration: none;
+  color: #6288a5;
+}
+
+.footer-body {
+  margin-top: 18px;
+}
+
+.article-categories {
+  width: 180px;
+  /* height: 315px; */
+  /* border: 1px solid blue; */
+  float: left;
+  /* margin-right: 15px; */
+}
+
+.article-categories > header,
+.footer-body-menus-left header {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+  width: 150px;
+  margin: 0px;
+}
+
+.footer-topics a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.footer-topics a:hover {
+  text-decoration: underline;
+}
+
+.footer-body-menus-left {
+  width: 215px;
+  height: 315px;
+  /* border: 1px solid green; */
+  float: left;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+.icon-list-item {
+  margin: 5px 0 10px 0;
+}
+
+.icon-list-item a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.icon-list-item a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-body-menus-left .small-menu {
+  margin-top: 30px;
+}
+
+.footer-body-menus-left .small-menu a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.footer-body-menus-left .small-menu a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-body-menus-left .small-menu li:nth-child(3) {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin-bottom: 15px;
+}
+
+/* footer copyright styles */
+.footer-copyright {
+  clear: both;
+  padding: 10px 0 50px 70px;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.footer-copyright ul {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footer-copyright li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer-copyright li a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #999;
+}
+
+.footer-copyright li a:hover {
+  text-decoration: underline;
 }
