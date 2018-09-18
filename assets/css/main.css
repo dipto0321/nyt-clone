@@ -254,11 +254,17 @@ article h1 {
   font-size: 13px;
   color: #999;
   position: relative;
-  bottom: 12px;
+  bottom: 30px;
+  left: 400px;
 }
 
 .posts figure img {
   width: 700px;
+}
+
+#satellite-caption {
+  bottom: 45px;
+  left: 315px;
 }
 
 /*iframe Styles*/
@@ -659,9 +665,9 @@ section.editors-pick {
 
 /* footer copyright styles */
 .footer-copyright {
-  clear: both;  
+  clear: both;
   padding: 10px 0 50px 70px;
-  border-top: 1px solid rgb(226,226,226);
+  border-top: 1px solid rgb(226, 226, 226);
 }
 
 .footer-copyright ul {
@@ -670,7 +676,7 @@ section.editors-pick {
 }
 
 .footer-copyright li {
-  display:inline;
+  display: inline;
   margin-right: 15px;
 }
 
