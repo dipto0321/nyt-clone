@@ -303,7 +303,7 @@ figure {
   right: 220px;
 }
 
-section + .post-extra {
+section+.post-extra {
   margin-top: 30px;
 }
 
@@ -545,13 +545,12 @@ section.editors-pick {
   display: block;
 }
 
-.main-footer > header {
+.main-footer>header {
   clear: both;
   height: 35px;
 }
 
 .footer-small {
-  display: inline-block;
   font-size: 11px;
   float: right;
   margin-right: 105px;
@@ -574,7 +573,7 @@ section.editors-pick {
   /* margin-right: 15px; */
 }
 
-.article-categories > header,
+.article-categories>header,
 .footer-body-menus-left header {
   color: rgb(51, 51, 51);
   font-size: 13px;
@@ -630,6 +629,7 @@ section.editors-pick {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .footer-body-menus-left .small-menu {
   margin-top: 30px;
 }
@@ -651,7 +651,35 @@ section.editors-pick {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .footer-body-menus-left .small-menu li:nth-child(3) {
   border-bottom: 1px solid rgb(226, 226, 226);
   margin-bottom: 15px;
+}
+
+/* footer copyright styles */
+.footer-copyright {
+  clear: both;  
+  padding: 10px 0 50px 70px;
+  border-top: 1px solid rgb(226,226,226);
+}
+
+.footer-copyright ul {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footer-copyright li {
+  display:inline;
+  margin-right: 15px;
+}
+
+.footer-copyright li a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #999;
+}
+
+.footer-copyright li a:hover {
+  text-decoration: underline;
 }
