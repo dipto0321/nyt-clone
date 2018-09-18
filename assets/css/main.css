@@ -303,7 +303,7 @@ figure {
   right: 220px;
 }
 
-section+.post-extra {
+section + .post-extra {
   margin-top: 30px;
 }
 
@@ -533,9 +533,9 @@ section.editors-pick {
 /* Footer Styles */
 .main-footer {
   position: relative;
-  top: 7855px;
+  top: 7885px;
   width: 87%;
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
   border-top: 1px solid #121;
 }
 
@@ -545,7 +545,7 @@ section.editors-pick {
   display: block;
 }
 
-.main-footer>header {
+.main-footer > header {
   clear: both;
   height: 35px;
 }
@@ -574,7 +574,7 @@ section.editors-pick {
   /* margin-right: 15px; */
 }
 
-.article-categories>header,
+.article-categories > header,
 .footer-body-menus-left header {
   color: rgb(51, 51, 51);
   font-size: 13px;
