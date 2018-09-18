@@ -12,6 +12,7 @@ header.header {
   position: fixed;
   top: 0;
   overflow: hidden;
+  z-index: 10;
 }
 
 .nav-main {
@@ -107,7 +108,7 @@ article h1 {
   font-weight: bold;
   font-style: italic;
   width: 350px;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 /*.article-main-image*/
@@ -261,12 +262,10 @@ article h1 {
 .posts figure img {
   width: 700px;
 }
-
 #satellite-caption {
   bottom: 45px;
   left: 315px;
 }
-
 /*iframe Styles*/
 section.embed {
   position: relative;
@@ -309,7 +308,7 @@ figure {
   right: 220px;
 }
 
-section+.post-extra {
+section + .post-extra {
   margin-top: 30px;
 }
 
@@ -551,7 +550,7 @@ section.editors-pick {
   display: block;
 }
 
-.main-footer>header {
+.main-footer > header {
   clear: both;
   height: 35px;
 }
@@ -579,7 +578,7 @@ section.editors-pick {
   /* margin-right: 15px; */
 }
 
-.article-categories>header,
+.article-categories > header,
 .footer-body-menus-left header {
   color: rgb(51, 51, 51);
   font-size: 13px;
