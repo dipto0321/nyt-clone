@@ -414,7 +414,6 @@ section.sidebar-signup {
   margin-left: 100px;
   position: relative;
   top: 7900px;
-  /* border-bottom: 1px solid #121; */
 }
 
 .bottom-other-articles {
@@ -443,7 +442,6 @@ section.sidebar-signup {
 
 .bottom-sidebar {
   width: 25%;
-  /* border: 1px solid orange; */
   height: 500px;
   float: left;
 }
@@ -458,7 +456,6 @@ section.sidebar-signup {
 }
 
 #second-bottom-box {
-  /* background-color: red; */
   margin-right: 250px;
 }
 
@@ -501,7 +498,6 @@ section.sidebar-signup {
 #blank-content {
   width: 270px;
   height: 250px;
-  /* border: 1px solid green; */
 }
 
 section.editors-pick {
@@ -572,10 +568,7 @@ section.editors-pick {
 
 .article-categories {
   width: 180px;
-  /* height: 315px; */
-  /* border: 1px solid blue; */
   float: left;
-  /* margin-right: 15px; */
 }
 
 .article-categories > header,
