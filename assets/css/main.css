@@ -546,17 +546,12 @@ section.editors-pick {
   display: block;
 }
 .main-footer > header {
-  /* position: relative;
-  right: 310px; */
   clear: both;
   height: 35px;
 }
 
 .footer-small {
   display: inline-block;
-  /* position: relative;
-  left: 450px;
-  bottom: 10px; */
   font-size: 11px;
   float: right;
   margin-right: 105px;
@@ -568,20 +563,13 @@ section.editors-pick {
 }
 
 .footer-body {
-  /* position: relative;
-  top: 20px; */
   margin-top: 18px;
 }
 
-.footer-links {
-  /* position: relative;
-  left: 100px; */
-}
-
 .article-categories {
-  width: 197px;
-  height: 315px;
-  border: 1px solid blue;
+  width: 180px;
+  /* height: 315px; */
+  /* border: 1px solid blue; */
   float: left;
   margin-right: 15px;
 }
@@ -611,17 +599,12 @@ section.editors-pick {
 .footer-topics a:hover {
   text-decoration: underline;
 }
-/*
-{
-      
-}
-*/
-.main-footer aside {
+.footer-body-menus-left {
   width: 215px;
   height: 315px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   float: left;
-  /* position: relative;
-  left: 100px; */
   margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid rgb(226, 226, 226);
 }
