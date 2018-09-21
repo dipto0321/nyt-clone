@@ -1,6 +1,6 @@
 # nyt-clone
 
-# This a clone site of new york time page project of [the odin project](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements).
+# This a clone site of new york time page.
 
 Contributors are : [Ryan](https://github.com/rvvergara) & [Dipto](https://github.com/dipto0321)
 
