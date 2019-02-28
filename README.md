@@ -4,4 +4,4 @@
 
 Contributors are : [Ryan](https://github.com/rvvergara) & [Dipto](https://github.com/dipto0321)
 
-Current [demo](https://rawgit.com/dipto0321/nyt-clone/dev-version/index.html)
+[demo](https://dipto0321.github.io/nyt-clone/)
